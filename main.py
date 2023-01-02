@@ -33,6 +33,22 @@ try:
                 "Toggle: " + str(channel[4])
             )
 
+            # Turn motor clockwise if red up is pressed
+            if channel[0] == 1:
+
+                BP.set_motor_power(BP.PORT_B, 100)
+
+            # Turn motor counter clockwise if red down is pressed
+            elif channel[1] == 1:
+
+                BP.set_motor_power(BP.PORT_B, -100)
+
+            # Turn motors off if neither are pressed
+            else:
+
+                BP.set_motor_power(BP.PORT_B, 0)
+
+
         except brickpi3.SensorError as error:
             
             print(error)
