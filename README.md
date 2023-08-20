@@ -14,9 +14,11 @@ This example simply returns the five current remote values:
 
 This example requires the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) VS Code extension to be installed.
 
-<img src="https://raw.githubusercontent.com/codeadamca/brickpi-infrared-remote/main/infrared-remote.jpg" width="400">
+![BrickPi Diagram](_readme/infrared-remote.jpg)
 
-## Tutorial Requirements:
+***
+
+## Repo Resources
 
 * [Dexter BrickPi](https://www.dexterindustries.com/BrickPi/)
 * [BrickPi3](https://github.com/DexterInd/BrickPi3)
